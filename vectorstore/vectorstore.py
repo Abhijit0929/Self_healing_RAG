@@ -8,6 +8,8 @@ def create_vectorstore(chunks, embedding_model):
         documents=chunks,
         embedding=embedding_model,
         persist_directory="vectorstore"
+
+        
     )
 
 
