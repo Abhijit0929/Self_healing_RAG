@@ -23,6 +23,7 @@ critique = critique_answer(
     query,
     answer,
     documents
+    
 )
 
 print("\n" + "=" * 60)
