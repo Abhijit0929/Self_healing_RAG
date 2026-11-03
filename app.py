@@ -11,7 +11,7 @@ while True:
     query = input("\n🧑 You: ")
 
     if query.lower() in ["exit", "quit", "q"]:
-        print("\n👋 Goodbye!")
+        print("\n👋 Goodbye !")
         break
 
     documents = retrieve(query)
